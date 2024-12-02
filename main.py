@@ -8,4 +8,8 @@ print(dir(spam))
 
 #print(my_module.person)
 
-#print(greeting)
+#print(greetng)
+
+from color50 import rgb, constants
+my_color = rgb(128, 0, 128)
+print(constants.CYAN + "Hello, World!" + constants.RESET)
